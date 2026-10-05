@@ -40,3 +40,10 @@ derived from the frame number (verified identical to the preview, incl. drop-fra
 Speed (M4 Pro): software decode + x264 `superfast` is ~3× faster than the single
 shared VideoToolbox H.264 engine, so H.264 defaults to x264; ProRes and HEVC use
 Apple hardware. Hardware decode is off by default (it was slower in testing).
+
+## Third-party software
+
+The packaged app bundles **FFmpeg** (ffmpeg 6.0 via [ffmpeg-static](https://github.com/eugeneware/ffmpeg-static),
+ffprobe via [@ffprobe-installer](https://github.com/SavageCore/node-ffprobe-installer)). These builds include
+GPL components such as x264 and are distributed under the GPL; FFmpeg source code is available at
+https://ffmpeg.org/download.html and https://github.com/FFmpeg/FFmpeg. FFmpeg is a trademark of Fabrice Bellard.
