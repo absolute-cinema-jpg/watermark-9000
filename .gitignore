@@ -1,0 +1,13 @@
+# dependencies & build output
+node_modules/
+dist/
+release/
+build/bin/
+
+# media: test footage and reference screenshots stay local
+01-test files/
+02-refs/
+
+# macOS / misc
+.DS_Store
+*.log
